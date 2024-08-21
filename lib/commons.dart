@@ -1,6 +1,7 @@
 export 'package:flutter/material.dart';
 export 'package:provider/provider.dart';
 export 'dart:convert';
+export 'package:flutter_trabalho4_opta1/persistence/firebase_options.dart';
 
 export 'package:firebase_core/firebase_core.dart';
 export 'package:cloud_firestore/cloud_firestore.dart';
