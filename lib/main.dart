@@ -1,10 +1,15 @@
-import 'package:flutter_trabalho4_opta1/commons.dart';
+import 'commons.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  
   runApp(
     MultiProvider(
       providers: [
-        ChangeNotifierProvider(create: (_) => TipsDao()),
+        ChangeNotifierProvider<AppointmentController>(
+          create: (_) => AppointmentController(),
+        ),
       ],
       child: const MyApp(),
     ),
@@ -17,7 +22,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
      return MaterialApp(
-      home: const HomeScreen() ,
+      home: const LoginScreen() ,
       title: AppLabels.appName,
 
       theme: ThemeData(
