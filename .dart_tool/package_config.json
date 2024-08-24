@@ -339,7 +339,7 @@
     },
     {
       "name": "vm_service",
-      "rootUri": "file:///C:/Users/tales/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.4",
+      "rootUri": "file:///C:/Users/tales/AppData/Local/Pub/Cache/hosted/pub.dev/vm_service-14.2.5",
       "packageUri": "lib/",
       "languageVersion": "3.3"
     },
@@ -362,10 +362,10 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-08-21T04:32:54.020790Z",
+  "generated": "2024-08-24T23:03:00.416630Z",
   "generator": "pub",
-  "generatorVersion": "3.5.0",
+  "generatorVersion": "3.5.1",
   "flutterRoot": "file:///D:/dev/flutter",
-  "flutterVersion": "3.24.0",
+  "flutterVersion": "3.24.1",
   "pubCache": "file:///C:/Users/tales/AppData/Local/Pub/Cache"
 }
